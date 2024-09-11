@@ -20,35 +20,35 @@
     {
       name: "Хозе-Рауль Капабланка",
       title: "Чемпион мира по шахматам",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
 
     },
     {
       name: "Эммануил Ласкер",
       title: "Чемпион мира по шахматам",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
     },
     {
       name: "Александр Алехин",
       title: "Чемпион мира по шахматам",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
 
     },
     {
       name: "Арон Нимцович",
       title: "Чемпион мира по шахматам",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
     },
     {
       name: "Рихард Рети",
       title: "Чемпион мира по шахматам",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
 
     },
     {
       name: "Остап Бендер",
       title: "Гроссмейстер",
-      img: "/public/img/icon_placeholder.webp",
+      img: "public/img/icon_placeholder.webp",
     },
   ];
 
