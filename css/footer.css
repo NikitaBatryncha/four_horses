@@ -1,0 +1,39 @@
+.footer {
+  background: var(--biege);
+}
+
+.footer__container {
+  padding-top: 40px;
+  padding-bottom: 72px;
+}
+
+.footer__descr {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: var(--fs-16);
+  line-height: 120%;
+  color: var(--title_black);
+  opacity: 0.6;
+}
+
+@media (max-width: 1200px) {
+  .footer__container {
+    padding-bottom: 40px;
+  }
+
+  .footer__descr {
+    max-width: 949px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .footer__container {
+    padding-bottom: 60px;
+  }
+
+  .footer__descr {
+    font-size: 16px;
+  }
+}
+
+

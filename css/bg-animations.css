@@ -1,0 +1,83 @@
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-90deg);
+  }
+  50% {
+    transform: rotate(-180deg);
+  }
+  75% {
+    transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+
+@keyframes rotation1 {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.bg-image {
+  position: fixed;
+}
+
+.bg-image--burn {
+  z-index: 4;
+  width: 1920px;
+  height: 700px;
+  mix-blend-mode: color-burn;
+}
+
+.bg-image--city {
+  z-index: 2;
+  bottom: -300px;
+  right: calc(50% - 10px);
+  transform: translateX(50%);
+  opacity: 0;
+}
+
+.bg-image--circle {
+  z-index: 0;
+  top: -500px;
+  right: 251px;
+  opacity: .3;
+  animation: rotation 90s linear infinite;
+}
+
+.bg-image--queen {
+  z-index: 1;
+  top: 365px;
+  right: 434px;
+  opacity: 0;
+}
+
+.bg-image--king {
+  z-index: 1;
+  top: 365px;
+  right: 783px;
+  opacity: 0;
+}
+
+.bg-image--horse {
+  z-index: 5;
+  bottom: -150px;
+  right: 611px;
+  opacity: 0;
+  animation: rotation1 .8s ease-in;
+}
+
+.bg-image--front {
+  z-index: 5;
+  bottom: -150px;
+  right: 321px;
+  opacity: 0;
+  animation: rotation1 .8s ease-in;
+}
