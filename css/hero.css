@@ -155,7 +155,7 @@
 @media (max-width: 520px) {
   .hero {
     padding-top: 18px;
-    background-image: url(/public/img/hero_bg_mobile.webp);
+    background-image: url(../public/img/hero_bg_mobile.webp);
     background-position-x: center;
     min-height: 774px;
     background-position-y: calc(50% - 123px);

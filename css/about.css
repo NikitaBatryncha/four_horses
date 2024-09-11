@@ -48,6 +48,7 @@
 
 .about__table {
   max-width: 704px;
+  width: 100%;
   margin-bottom: 44px;
   scroll-padding: 30px;
 }

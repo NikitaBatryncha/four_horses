@@ -206,7 +206,7 @@
     left: 9px;
     z-index: 2;
     transform: rotate(-3deg);
-    background-image: url(/public/img/biplan.webp);
+    background-image: url(../public/img/biplan.webp);
     background-size: cover;
   }
 
@@ -230,7 +230,7 @@
     width: 335px;
     height: 300px !important;
     padding: 62px 20px 34px;
-    background-image: url(/public/img/bg_steps_slide.webp);
+    background-image: url(../public/img/bg_steps_slide.webp);
     background-repeat: no-repeat;
     background-size: cover;
   }
