@@ -35,24 +35,24 @@
   min-height: 112px;
   padding: 20px;
   background-color: #f2f2f2;
-  background-image: url(/public/img/grid-bg-1.webp);
+  background-image: url(../public/img/grid-bg-1.webp);
 }
 
 .tall {
   height: 100%;
   grid-row: span 2;
-  background-image: url(/public/img/grid-bg-4.webp);
+  background-image: url(../public/img/grid-bg-4.webp);
 }
 
 .bottom {
   min-height: 136px;
-  background-image: url(/public/img/grid-bg-2.webp);
+  background-image: url(../public/img/grid-bg-2.webp);
 }
 
 .wide {
   position: relative;
   grid-column: span 2;
-  background-image: url(/public/img/grid-bg-3.webp);
+  background-image: url(../public/img/grid-bg-3.webp);
 }
 
 .wide::after {
@@ -61,7 +61,7 @@
   display: block;
   width: 381px;
   height: 200px;
-  background-image: url(/public/img/biplan.webp);
+  background-image: url(../public/img/biplan.webp);
   background-position: center;
   top: -78px;
   right: -53px;
