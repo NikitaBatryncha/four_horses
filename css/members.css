@@ -30,7 +30,7 @@
 }
 
 .members-swiper-button-prev {
-  content: url(/public/img/carousel_button.svg);
+  content: url(../public/img/carousel_button.svg);
   width: 44px;
   height: 44px;
   transition: background-color 0.3s ease;
@@ -38,7 +38,7 @@
 }
 
 .members-swiper-button-next {
-  content: url(/public/img/carousel_button.svg);
+  content: url(../public/img/carousel_button.svg);
   transform: rotate(180deg);
   width: 44px;
   height: 44px;
@@ -47,11 +47,11 @@
 }
 
 .members-swiper-button-prev:hover {
-  content: url(/public/img/carousel_hover.svg);
+  content: url(../public/img/carousel_hover.svg);
 }
 
 .members-swiper-button-next:hover {
-  content: url(/public/img/carousel_hover.svg);
+  content: url(../public/img/carousel_hover.svg);
 }
 
 .members-swiper-pagination {

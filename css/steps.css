@@ -260,7 +260,7 @@
   .steps-swiper-button-prev {
     width: 36px;
     height: 36px;
-    content: url(/public/img/carousel_button.svg);
+    content: url(../public/img/carousel_button.svg);
     transition: background-color 0.3s ease;
     cursor: pointer;
   }
@@ -268,18 +268,18 @@
   .steps-swiper-button-next {
     width: 36px;
     height: 36px;
-    content: url(/public/img/carousel_button.svg);
+    content: url(../public/img/carousel_button.svg);
     transform: rotate(180deg);
     transition: background-color 0.3s ease;
     cursor: pointer;
   }
 
   .steps-swiper-button-prev:hover {
-    content: url(/public/img/carousel_hover.svg);
+    content: url(../public/img/carousel_hover.svg);
   }
 
   .steps-swiper-button-next:hover {
-    content: url(/public/img/carousel_hover.svg);
+    content: url(../public/img/carousel_hover.svg);
   }
 
   .swiper-button-disabled {

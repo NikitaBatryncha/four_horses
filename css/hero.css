@@ -15,7 +15,7 @@
 
 .hero__background {
   position: relative;
-  background-image: url(/public/img/1920.webp);
+  background-image: url(../public/img/1920.webp);
   width: 1920px;
   height: 700px;
 }
