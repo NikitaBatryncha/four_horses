@@ -292,7 +292,6 @@
         scrub: true,
         start: "top +=500px",
         end: "+=200px",
-        markers: true
       },
     });
 
@@ -302,7 +301,6 @@
         scrub: true,
         start: "top +=1000px",
         end: "+=200px",
-        markers: true
       },
     });
 
@@ -312,7 +310,6 @@
         scrub: true,
         start: "top +=1000px",
         end: "+=200px",
-        markers: true
       },
     });
 
