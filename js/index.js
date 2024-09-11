@@ -139,7 +139,7 @@
   if (window.screen.width <= 520) {
     //меняю путь к изображению
     const aboutImg2 = document.querySelector(".about__image--2");
-    aboutImg2.src = ("/public/img/chess_money_small.webp");
+    aboutImg2.src = ("public/img/chess_money_small.webp");
 
     //превращаю таблицу в слайдер
     const steps = document.querySelector(".grid-container");
