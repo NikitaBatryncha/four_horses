@@ -297,10 +297,12 @@
   }
 
   .about__image--2 {
+    margin-left: 0px;
     margin-bottom: 20px;
     max-width: 375px;
-    width: 100%;
+    width: 482px;
     height: 419px;
+    scale: 1;
   }
 
   .about__title--2 {
