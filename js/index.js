@@ -142,8 +142,8 @@
     aboutImg2.src = ("public/img/chess_money_small.webp");
 
     //превращаю таблицу в слайдер
-    const steps = document.querySelector(".grid-container");
-    steps.classList = "grid-container stepsSwiper";
+    const steps = document.querySelector(".grid");
+    steps.classList = "grid stepsSwiper";
 
     const stepsWrapper = document.createElement("div");
     stepsWrapper.classList = "swiper-wrapper";
@@ -160,21 +160,19 @@
     const stepsPagination = document.createElement("div");
     stepsPagination.classList = "steps-swiper-pagination";
 
-    const stepsSlide1 = document.querySelector(".grid-item--1");
-    const stepsSlide2 = document.querySelector(".grid-item--2");
-    const stepsSlide3 = document.querySelector(".grid-item--3");
-    const stepsSlide4 = document.querySelector(".grid-item--4");
-    const stepsSlide5 = document.querySelector(".grid-item--5");
-    const stepsSlide6 = document.querySelector(".grid-item--6");
-    const stepsSlide7 = document.querySelector(".grid-item--7");
+    const stepsSlide1 = document.querySelector(".grid__item--1");
+    const stepsSlide2 = document.querySelector(".grid__item--2");
+    const stepsSlide3 = document.querySelector(".grid__item--3");
+    const stepsSlide4 = document.querySelector(".grid__item--4");
+    const stepsSlide5 = document.querySelector(".grid__item--5");
+    const stepsSlide6 = document.querySelector(".grid__item--6");
+    const stepsSlide7 = document.querySelector(".grid__item--7");
 
     let i = 0;
 
     do {
       const sliderSlide = document.createElement("div");
       sliderSlide.classList = `swiper-slide steps-slide swiper-slide--${i}`;
-
-
       stepsWrapper.append(sliderSlide)
 
       i++
